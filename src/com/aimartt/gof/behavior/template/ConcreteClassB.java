@@ -11,12 +11,12 @@ public class ConcreteClassB extends AbstractClass {
 
 	@Override
 	public void absMethod1() {
-		System.out.println("具体类B方法1实现");
+		System.out.println("鍏蜂綋绫籅鏂规硶1瀹炵幇");
 	}
 
 	@Override
 	public void absMethod2() {
-		System.out.println("具体类B方法1实现");
+		System.out.println("鍏蜂綋绫籅鏂规硶2瀹炵幇");
 	}
 
 }

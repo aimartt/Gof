@@ -9,13 +9,13 @@ package com.aimartt.gof.behavior.template;
  */
 public abstract class AbstractClass {
 	
-	//抽象方法，由子类实现
+	//鎶借薄鏂规硶锛岀敱瀛愮被瀹炵幇
 	
 	public abstract void absMethod1();
 	public abstract void absMethod2();
 	
 	/**
-	 * 模板方法，规定逻辑框架，具体实现由子类完成
+	 * 妯℃澘鏂规硶锛岃瀹氶�昏緫妗嗘灦锛屽叿浣撳疄鐜扮敱瀛愮被瀹屾垚
 	 */
 	public void templateMethod() {
 		absMethod1();
